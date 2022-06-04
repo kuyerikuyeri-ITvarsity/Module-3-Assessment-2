@@ -143,6 +143,13 @@ body{
 .meals-content{
     margin-left: 20px;
 }
+
+@media only screen and (max-width: 1200px){
+    .meals-content{
+        margin-left: 0;
+    }
+
+}
 .meals-page p{
     margin-top: 50%;
 }
