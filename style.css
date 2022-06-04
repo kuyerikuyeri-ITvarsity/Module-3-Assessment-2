@@ -1,0 +1,428 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+/* HEADER */
+.header{
+    background-color: #005e5e;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fa-chevron-left{
+    float: left;
+    padding: 17px 0 0 17px;
+    color: white;
+}
+
+.links{
+    padding-top: 14px;
+    padding-right: 25px;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-left: 50px;
+}
+
+.links a:hover{
+    color: antiquewhite;
+}
+
+.header h2{
+    margin-top: -27px;
+    color: white;
+    float: right;
+}
+
+/* HOME PAGE */
+
+.top-bar{
+    width: 100%;
+    margin-top: 50px;
+    left: 0;
+    height: 180px;
+    background-color: bisque;
+}
+
+.top-bar img{
+    display: block;
+    width: 170px;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+.meals{
+    background-image: url('images/food1.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.meals-item{
+    padding: 200px;
+    
+}
+
+.meals a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.drinks{
+    background-image: url('images/drinks.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.drinks a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #72e5ff;
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.desserts{
+    background-image: url('images/dessert.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+
+.desserts a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff7272;
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+/* MEALS PAGE */
+
+.meals-page{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.meals-page a{
+    color: white;
+    font-size: 90px;
+    
+}
+
+.meals-content{
+    margin-left: 20px;
+}
+.meals-page p{
+    margin-top: 50%;
+}
+
+
+
+.meal-image{
+    background-image: url('images/chicken.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.meal-image2{
+    background-image: url('images/beef.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.meal-image3{
+    background-image: url('images/pasta.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+@media only screen and (max-width: 1200px) {
+    .meal-image{
+        background-image: url('images/chicken.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .meal-image2{
+        background-image: url('images/beef.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .meal-image3{
+        background-image: url('images/pasta.jpg');
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .meals-page p{
+        margin-top: 20%;
+    }
+    
+}
+
+
+/* ORDER PAGE */
+
+.order{
+    margin: auto;
+    padding: 150px;
+    padding-top: 0;
+}
+
+
+
+.order-details{
+    text-align: center;
+}
+
+.order-details img{
+    width: 100%;
+}
+
+.order-info{
+    font-size: 20px;
+}
+
+.order-info textarea{
+    height: 180px;
+    width: 99%;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+}
+
+.order-info a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: #000000;
+}
+
+.order-info a:hover{
+    background-color: #35414d;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .order{
+        margin: auto;
+        padding: 0;
+        
+    }
+
+    .order-info{
+        padding: 10px;
+    }
+
+    
+
+    
+}
+
+/* DRINKS PAGE */
+
+
+.drink-image{
+    background-image: url('images/milkshake.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.drink-image2{
+    background-image: url('images/mojito.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.drink-image3{
+    background-image: url('images/martini.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+@media only screen and (max-width: 1200px) {
+    .drink-image{
+        background-image: url('images/milkshake.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .drink-image2{
+        background-image: url('images/mojito.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .drink-image3{
+        background-image: url('images/martini.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .meals-page p{
+        margin-top: 20%;
+    }
+    
+}
+
+/* DESSERTS PAGE */
+
+
+.dessert-image{
+    background-image: url('images/cheesecake.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.dessert-image2{
+    background-image: url('images/icecream.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.dessert-image3{
+    background-image: url('images/pie.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 33%;
+    height: 800px;
+    float: left;
+}
+
+.text-color{
+    color: #ff7272;
+}
+
+@media only screen and (max-width: 1200px) {
+    .dessert-image{
+        background-image: url('images/cheesecake.jpg');
+        background-position: bottom;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .dessert-image2{
+        background-image: url('images/icecream.jpg');
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .dessert-image3{
+        background-image: url('images/pie.jpg');
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        height: 500px;
+        
+    }
+
+    .meals-page p{
+        margin-top: 20%;
+    }
+    
+}
+
+
+/* THANKS PAGE */
+
+.thanks-page{
+    color: #84d1ff;
+    text-align: center;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.thanks-page h1{
+    margin-top: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .thanks-page h1{
+        margin-top: 50%;
+    }
+}
